@@ -1,0 +1,4 @@
+index.html  - Line 33 - Changed line to "Unicorns: They're not just for breaksfast anymore!"
+index.html  - Line 35 - Added two line breaks to change the single paragraph into two paragrraphs with a space. 
+FAQ.html - Added some lines in the Q and A section generally defaming Pegasi (winged horses)
+index.html - Added line 72
