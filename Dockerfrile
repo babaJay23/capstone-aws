@@ -1,9 +1,8 @@
-FROM tecadmin/ubuntu-ssh:16.04
+FROM apache2
+RUN yum update \
+   && yum install -y apache2
 
-RUN apt-get update \
-   && apt-get install -y apache2
-
-COPY html/* /var/www/html/
+COPY capstone2-aws/* /var/www/html/
 
 WORKDIR /var/www/html
 CMD ["apachectl", "-D", "FOREGROUND"]
