@@ -1,4 +1,4 @@
-FROM apache
+FROM nginx
 RUN yum update \
    && yum install -y apache2
 
