@@ -1,6 +1,6 @@
 FROM nginx
 
-COPY capstone2-aws/* /var/www/html/
+COPY . /usr/share/nginx/html
 
 WORKDIR /var/www/html
 CMD ["apachectl", "-D", "FOREGROUND"]
