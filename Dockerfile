@@ -1,6 +1,4 @@
 FROM nginx
-RUN yum update \
-   && yum install -y apache2
 
 COPY capstone2-aws/* /var/www/html/
 
