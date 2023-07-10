@@ -1,4 +1,4 @@
-FROM apache2
+FROM apache
 RUN yum update \
    && yum install -y apache2
 
